@@ -17,16 +17,12 @@ function App() {
   
   return (
     <div className="App"> 
-    {loading ?(
-      <Preloader></Preloader>
-      ):(
-        <>
+
         <Routes>
           <Route path='/' element={<Header/>}/>
           <Route path='/Portfolio' element={<AboutMePage/>}/>
         </Routes>
-        </>
-      )}
+
     </div>
   );
 }

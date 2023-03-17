@@ -6,7 +6,6 @@ const Experience=()=>{
     return(
         <>
         <div className="card">
-
             <div className='column'>
                 <div className='brand'>Alex</div>
                 <img className='halfCircle' alt='profile' src={him}></img>
