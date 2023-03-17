@@ -1,0 +1,40 @@
+.exphalf{
+    //border:1px solid red;
+   display: flex;
+   flex-direction: column;
+   margin-top:45px;
+}
+.exp1{
+    //border:1px solid blue;
+}
+.exp2{
+    //border:1px solid red;
+    display: flex;
+    flex:row;
+    justify-content: center;
+    margin-bottom:30px;
+    
+}
+.exp3{
+    display: flex;
+    justify-content: center;
+}
+.smallcard{
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+}
+.topic{
+    font-size: clamp(3rem, 5vw, 8rem);
+}
+.subtopic{
+    font-size: clamp(2rem, 2vw, 4rem);
+}
+.explain{
+    border:1px solid white;
+    border-radius: 10px;
+    padding:5px 10px 5px 10px;
+    margin-left:10px;
+    margin-right:10px;
+    font-size: clamp(1rem, 1vw, 2.5vh);
+}

@@ -1,0 +1,43 @@
+
+.columnFlow{
+    background-color: black;
+    color:white;
+    display:flex;
+    flex-direction: row;
+    position: absolute;
+    overflow-y: hidden;
+    }
+    .flow1{
+
+        width:40%;
+        
+    }
+
+    .flow2{
+
+        width:60%;
+        display:flex;
+    
+       
+    }
+    .col_space{
+ 
+        width:500px;
+    }
+    .col_cont{
+        display:flex;
+        flex-direction: column;
+        font-size: clamp(0.313rem, 0.108rem + 1.02vw, 0.875rem);
+        z-index:4;
+    }
+    .para{
+        margin-top:190px;
+    }
+.tracker{
+    margin-top:20%;
+    position: fixed;
+    z-index:4;
+    margin-left:6em;
+    
+}
+

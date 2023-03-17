@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.sub_title{
+  font-family: 'Poppins', sans-serif;
+    font-size: 6em;
+    text-align: start;
+}
+.sub_context{
+    font-family: 'Poppins', sans-serif;
+    padding-left: 1em;
+    font-size: 2em;
+    text-align: start;
+  
+}
+@media only screen and (min-width: 768px) {
+  .sub_context{
+    width:70%;
+  }
+  .sub_title{
+    width: 60%;
+  }
+}

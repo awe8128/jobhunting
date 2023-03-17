@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.Hover:hover {
+    background-color: white;
+    color: #222222;
+  }
+  .Hover{
+
+    font-family: 'Space Mono', monospace;
+    font-size: clamp(2rem, 8vw, 10rem);
+    color: white;
+    padding: 0rem clamp(1rem, 2vw, 3rem);
+    border-radius: clamp(0.4rem, 0.75vw, 1rem);
+  }

@@ -1,0 +1,88 @@
+
+.footer{
+    display:flex;
+    font-family: 'Poppins', sans-serif;
+    z-index: 10;
+  }
+  .footer_row0{
+      background-color: #222222;
+      display:flex;
+      justify-content: space-evenly;
+        border-radius:10px;
+      position: absolute;
+      top:40%;
+      left:50%;
+      transform: translate(-50%, -50%);
+      min-height:50%;
+      width:90%;
+    
+      border:1px solid white;
+  }
+  .year{
+      width:35%;
+      display:flex;
+      justify-content: center;
+      align-items: start;
+      flex-direction: column;
+  }
+  .styleword{
+    width:100%;
+    border: 1px solid white;
+  
+  }
+  .yearfounded{
+      padding:3px 12px 3px 12px;
+      border-radius: 15px;
+      border:2px solid white;
+      align-items: start;
+  }
+  .word{
+      font-size: 4em;
+      margin-left:30%;
+  }
+  .locationword{
+      font-size:4em;
+     
+  }
+  .locationPlace{
+      padding:3px 12px 3px 12px;
+      border-radius: 15px;
+      border:2px solid white;
+      align-items: start;
+  }
+  .location{
+      width:35%;
+      display:flex;
+      justify-content: center;
+      align-items: start;
+      flex-direction: column;
+  }
+  .footer_row1{
+      display: flex;
+      justify-content: space-evenly;
+      border-radius: 10px;
+      flex-direction: row;
+      position: absolute;
+      top:80%;
+      left:50%;
+      width:90%;
+      min-height:20%;
+      transform: translate(-50%, -50%);
+      border:1px solid white;
+      background-color: #222222;
+  }
+  .information{
+      display: flex;
+      flex-direction: column;
+      margin-top:20px;
+      align-items: start;
+      width:20%;
+      font-size: 15px;
+  }
+  @media screen and (max-width: 700px){
+    .footer_row0{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+  }

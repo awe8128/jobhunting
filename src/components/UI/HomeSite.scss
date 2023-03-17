@@ -1,0 +1,227 @@
+.brand{
+    position: absolute;
+    top:2%;
+    left:5%;
+}
+.halfCircle{
+    position: absolute;
+    left:25%;
+    min-height: 100%;
+    width:140%;
+    object-fit:fill;
+    transform: scaleX(-1);
+    border-radius: 50%;
+    border:3px solid white;
+}
+.social{
+    position: absolute;
+    top:95%;
+    left:5%;
+    display: flex;
+}
+.items{
+    padding-left:2em;
+    opacity: 0.5;
+}
+.column{
+    position: absolute;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow: hidden;
+    z-index: 10;
+    position: absolute;
+    width:40%;
+    min-height:100%;
+    border-right:3px solid white;
+    
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    z-index: 9;
+    position: absolute;
+    left:40%;
+    width:60%;
+}
+.firsthalf{
+    height:50%;
+    
+}
+
+.secondhalf{
+    display:flex;
+    flex-direction: column;
+    
+    height: 50%;
+    justify-content: flex-end;
+}
+.rowhead{
+   
+    height:10%;
+}
+.rowbody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height:90%;
+    max-width: 100%;
+   
+}
+.rowbodycontext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:5%;
+    
+    max-width: 100%;
+    
+}
+.rowfoot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:5%;
+    max-width: 100%;
+    min-height: 10vh;
+}
+
+.discover{
+
+    padding: 0rem clamp(1rem, 2vw, 3rem);
+    border:1px solid white;
+    width:60%;
+    border-radius: 10px;
+    font-size: clamp(1rem, 1vw, 2.5vh);
+    text-align: start;
+
+}
+.blurPage{
+    top:0%;
+    position: absolute;
+    z-index: 8;
+    width: 100%;
+    min-height: 100%;
+    background-color:#222222;
+    opacity: 0.5;
+   
+}
+.blurCircle{
+    top:50%;
+    left:-20%;
+    transform: translate(0,-50%);
+    position: absolute;
+    width:50%;
+    min-height:50%;
+    background-color: white;
+    border-radius: 50%;
+}
+.profile_0{
+
+    border-radius:50%;
+    width: 50%;
+    height:50%;
+    top:50%;
+    left:-20%;
+    transform: translate(0,-50%);
+    position: absolute;
+    opacity: 0.2;
+}
+
+.pages{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+ 
+    height:5rem;
+    justify-content: space-between;
+    align-items: center;
+    top:50%;
+    left:92%;
+    transform: translate(-10%, -50%);
+    font-size: clamp(1em, 2vh, 3vh);
+}
+.currentPage{
+    min-width:30px;
+
+    min-height:20px;
+
+}
+.maxPage{
+    min-width:30px;
+    min-height:20px;
+
+    opacity:0.5;
+}
+
+.arrow{
+   
+    width:40%;
+    width: 100%;
+    border: 1px solid white;
+    opacity: 0.2;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.arrowBall{
+    position: absolute;
+    top:50%;
+    transform: translate(-50%,-50%);
+    left:85%;
+    height:60px;
+    width: 60px;
+   
+    border-radius:50%;
+    background-color: white;
+    opacity: 0.3;
+}
+.downArrow{
+    top:45%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    font-size: 2.5em;
+    color: #222222;
+}
+@media screen and (max-width: 900px) {
+    .column{
+        width:0;
+    }
+    .row{
+        left:0;
+        width:100%;
+        overflow: hidden;
+    }
+    .profile_0{
+        border-radius:0%;
+        width: 100%;
+        height:100%;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        position: absolute;
+        opacity: 0.2;
+    }
+    .navbar{
+        display: flex;
+        justify-content: center;
+    }
+    .firsthalf{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height:40%;
+    }
+    .secondhalf{
+   
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height:60%;
+    }
+
+}

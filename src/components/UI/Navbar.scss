@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.navbar{
+  font-family: 'Poppins', sans-serif;
+  z-index: 10;
+  position: fixed;
+  width:100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+    display: flex;
+    justify-content: left;
+    background: transparent;
+  }
+    
+  li a {
+    display: flex;
+    opacity: 0.6;
+    color: #FEFCF3;
+    text-align: center;
+    padding: 15px 35px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left:2em;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    opacity: 1.5;
+  }

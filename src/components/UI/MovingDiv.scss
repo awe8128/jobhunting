@@ -1,0 +1,18 @@
+.moving-div {
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+    width: clamp(12.5rem, 10.227rem + 11.36vw, 18.75rem);
+    height: clamp(6.25rem, 4.659rem + 7.95vw, 10.625rem);
+    border: 1px solid grey;
+    background: transparent;
+    transition: top 0.3s ease-out;
+  }
+.spara{
+  margin-top: 40px;
+}
+@media screen and (max-width:900px){
+  .spara{
+    margin-top:80px;
+  }
+}
