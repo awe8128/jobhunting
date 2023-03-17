@@ -23,7 +23,7 @@ function App() {
         <>
   
         <Routes>
-          <Route path='/Header' element={<Header/>}/>
+          <Route path='' element={<Header/>}/>
           <Route path='/About' element={<AboutMePage/>}/>
         </Routes>
         </>
