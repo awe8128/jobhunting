@@ -21,7 +21,7 @@ function App() {
         <>
         <Routes>
           <Route exact path='/' element={<Header/>}/>
-          <Route path='/About' element={<AboutMePage/>}/>
+          <Route path='/jobhunting/About' element={<AboutMePage/>}/>
         </Routes>
         </>
 
