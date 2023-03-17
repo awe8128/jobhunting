@@ -5,8 +5,7 @@ import Navbar from "../components/Navbar";
 const AboutMePage =()=>{
     return(
         <>
-        
-         <Navbar></Navbar>
+        <Navbar></Navbar>
         <Flow></Flow>
         </>
 
