@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="App"> 
     {loading ?(
-      <Header></Header>
+      <Preloader></Preloader>
       ):(
         <>
   
