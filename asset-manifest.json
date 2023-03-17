@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/jobhunting/static/css/main.170be4ba.css",
-    "main.js": "/jobhunting/static/js/main.07b128bc.js",
+    "main.js": "/jobhunting/static/js/main.c1c291eb.js",
     "static/js/787.1ed0c42c.chunk.js": "/jobhunting/static/js/787.1ed0c42c.chunk.js",
     "static/media/me.jpg": "/jobhunting/static/media/me.91155aa8709d2a33b4f0.jpg",
     "static/media/him.jpg": "/jobhunting/static/media/him.10c8fe799249a2275876.jpg",
     "index.html": "/jobhunting/index.html",
     "main.170be4ba.css.map": "/jobhunting/static/css/main.170be4ba.css.map",
-    "main.07b128bc.js.map": "/jobhunting/static/js/main.07b128bc.js.map",
+    "main.c1c291eb.js.map": "/jobhunting/static/js/main.c1c291eb.js.map",
     "787.1ed0c42c.chunk.js.map": "/jobhunting/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.170be4ba.css",
-    "static/js/main.07b128bc.js"
+    "static/js/main.c1c291eb.js"
   ]
 }
