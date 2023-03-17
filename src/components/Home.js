@@ -11,7 +11,7 @@ const HomeSite =()=>{
         <div className="card">
             <div className='column'>
                         <div className='brand'>Alex</div>
-                        <img className='halfCircle' src={him}></img>
+                        <img className='halfCircle' alt='profile' src={him}></img>
                         <div className='social'>
                             <div className='items'>| Instagram
                                 <a class ="Link" href="https://www.instagram.com/anxaa.o/">
@@ -60,7 +60,7 @@ const HomeSite =()=>{
                         
                         
                         <div className='arrow'></div>
-                        <img className='profile_0' src={me}></img>
+                        <img className='profile_0'alt='profile0'src={me}></img>
                         <div className="pages">
                                 <div className='currentPage'>01</div>
                                 <div className='maxPage'>04</div>

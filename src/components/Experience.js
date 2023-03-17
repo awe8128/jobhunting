@@ -9,7 +9,7 @@ const Experience=()=>{
 
             <div className='column'>
                 <div className='brand'>Alex</div>
-                <img className='halfCircle' src={him}></img>
+                <img className='halfCircle' alt='profile' src={him}></img>
                 <div className='social'>
                         <div className='items'>| Facebook </div>
                         <div className='items'>| Instagram </div>
