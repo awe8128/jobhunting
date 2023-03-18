@@ -19,7 +19,7 @@ function App() {
     <div className="App"> 
 
         <Routes>
-          <Route exact path='/jobhunting/'  component={<Header/>}/>
+          <Route exact path='/'  component={<Header/>}/>
           <Route path='/jobhunting/#/Portfolio'  element={<AboutMePage/>}/>
         </Routes>
 
