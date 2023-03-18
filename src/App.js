@@ -20,7 +20,7 @@ function App() {
 
         <Routes>
           <Route exact path='/'  component={<Header/>}/>
-          <Route path='/jobhunting/#/Portfolio'  element={<AboutMePage/>}/>
+          <Route path='/jobhunting/#/Portfolio'  component={<AboutMePage/>}/>
         </Routes>
 
     </div>
