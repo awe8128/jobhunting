@@ -5,8 +5,8 @@ const Navbar =()=>{
     return(
         <div className="navbar">
            <ul>
-            <li ><a href="/">Alex</a></li>
-            <li ><a href="/about">Portfolio</a></li>
+            <li ><a href="/jobhunting">Alex</a></li>
+            <li ><a href="/jobhunting/Portfolio">Portfolio</a></li>
             </ul>
         </div>
     )

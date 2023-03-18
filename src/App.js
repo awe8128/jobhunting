@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 import Header from './components/Header'
 import './App.css';
 import AboutMePage from './pages/Aboutme';
-import { Route,Routes } from 'react-router-dom';
+import { Route,Routes, HashRouter } from 'react-router-dom';
 import Preloader from './components/Preloader';
 
 function App() {
@@ -19,8 +19,8 @@ function App() {
     <div className="App"> 
 
         <Routes>
-          <Route exact path='/' element={<Header/>}/>
-          <Route exact path='/jobhunting/Portfolio' element={<AboutMePage/>}/>
+          <Route exact path='/jobhunting'  element={<Header/>}/>
+          <Route exact path='/jobhunting/Portfolio'  element={<AboutMePage/>}/>
         </Routes>
 
     </div>
