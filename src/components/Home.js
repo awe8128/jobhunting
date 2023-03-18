@@ -26,7 +26,7 @@ const HomeSite =()=>{
                     <div className="navbar" data-aos="fade-down" data-aos-duration="1500" >
                                 <ul>
                                     <li ><a href="/jobhunting">Home</a></li>
-                                    <li ><a href="/jobhunting/Portfolio">Portfolio</a></li>
+                                    <li ><a href="/jobhunting/#/Portfolio">Portfolio</a></li>
                                 </ul>
                             </div>
                     <div className="firsthalf">
