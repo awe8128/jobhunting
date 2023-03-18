@@ -19,8 +19,8 @@ function App() {
     <div className="App"> 
 
         <Routes>
-          <Route path='/' element={<Header/>}/>
-          <Route path='/jobhunting/Portfolio' element={<AboutMePage/>}/>
+          <Route exact path='/' element={<Header/>}/>
+          <Route exact path='/jobhunting/Portfolio' element={<AboutMePage/>}/>
         </Routes>
 
     </div>
