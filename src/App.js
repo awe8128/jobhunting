@@ -17,12 +17,12 @@ function App() {
   
   return (
     <div className="App"> 
-
+      <>
         <Routes>
           <Route exact path='/'  component={<Header/>}/>
           <Route path='/jobhunting/#/Portfolio'  component={<AboutMePage/>}/>
         </Routes>
-
+        </>
     </div>
   );
 }
