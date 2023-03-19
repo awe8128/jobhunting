@@ -7,17 +7,10 @@ import him from './img/him.jpg';
 import'./UI/HomeSite.scss';
 import AboutMePage from "../pages/Aboutme";
 const HomeSite =()=>{
-    const [isShown , setIsShown]=useState(false);
-    const [isShownMain , setIsShownMain]=useState(true);
-    const handleClick =event=>{
-        setIsShown(true);
-        setIsShownMain(false);
-    } 
     return(
         <>
-        {isShown && ( <AboutMePage/>)}
-        {isShownMain &&(
-            <>
+
+        
             <div className="card">
             <div className='column'>
                         <div className='brand'>Alex</div>
@@ -34,7 +27,7 @@ const HomeSite =()=>{
                     <div className="navbar" data-aos="fade-down" data-aos-duration="1500" >
                                 <ul>
                                     <li ><a href="/jobhunting">Home</a></li>
-                                    <li ><a onClick={handleClick}>Portfolio</a></li>
+                                    <li ><a href="/jobhunting/Portfolio">Portfolio</a></li>
                                 </ul>
                             </div>
                     <div className="firsthalf">
@@ -82,10 +75,7 @@ const HomeSite =()=>{
                             
                     
                     </div>
-                    </div>
-            </>
-        )}
-        
+                    </div>    
         </>
     )
 }

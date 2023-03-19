@@ -29,8 +29,6 @@ const Header =()=>{
         <div className='container'>
             <CursorFollower></CursorFollower>
         <section className='TypingPage'data-aos="fade-down" data-aos-duration="1500">
-                                
-
             <Home></Home>
         </section>
         <section className='AboutPage' data-aos="fade-down" data-aos-duration="1500">
