@@ -17,12 +17,10 @@ function App() {
   
   return (
     <div className="App"> 
-      <>
         <Routes>
-          <Route exact path='/'  component={Header}/>
-          <Route path='/jobhunting/#/Portfolio'  component={AboutMePage}/>
+          <Route exact path='/jobhunting' element={<Header/>}></Route>
+          <Route  path='/jobhunting/Portfolio' element={<AboutMePage/>}/>
         </Routes>
-        </>
     </div>
   );
 }

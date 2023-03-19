@@ -7,7 +7,7 @@ import 'aos/dist/aos.css';
 import Loader from './Loader';
 import CursorFollower from './CursorFollower';
 import Home from './Home';
-
+import AboutMePage from '../pages/Aboutme';
 import Experience from './Experience';
 const Header =()=>{
     useEffect(() => {
@@ -25,9 +25,12 @@ const Header =()=>{
     {loading ?(
      <Loader></Loader>
       ):(
+        <>
         <div className='container'>
             <CursorFollower></CursorFollower>
         <section className='TypingPage'data-aos="fade-down" data-aos-duration="1500">
+                                
+
             <Home></Home>
         </section>
         <section className='AboutPage' data-aos="fade-down" data-aos-duration="1500">
@@ -41,6 +44,8 @@ const Header =()=>{
             <Footer></Footer>
         </section>
         </div>
+        
+        </>
         )}
         </>
         
